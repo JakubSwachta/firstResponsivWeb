@@ -1,6 +1,10 @@
 $primary-color: #444;
+$second-color: #999;
 
 body {
   background: $primary-color;
   color: #fff;
+  h1 {
+    color: #999;
+  }
 }
