@@ -40,6 +40,16 @@
       height: 150px;
     }
   }
+  .about-info {
+    grid-template-areas:
+      "bio-img"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
+  }
 }
 //Smarphones
 @include mediaSm {
@@ -56,7 +66,4 @@
       font-size: 1rem;
     }
   }
-}
-
-.menu-branding {
 }
