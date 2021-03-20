@@ -1,8 +1,14 @@
 //Wide screen
 @include mediaXl {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 //Desktop and laptops
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 //Tablets
 @include mediaMd {
@@ -50,6 +56,9 @@
 
     grid-template-columns: 1fr;
   }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 //Smarphones
 @include mediaSm {
@@ -65,5 +74,8 @@
     &.sm-heading {
       font-size: 1rem;
     }
+  }
+  .projects {
+    grid-template-columns: 1fr;
   }
 }
