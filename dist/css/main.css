@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(/dist/img/tata_img.png);
+      background: url(../img/tata_img.png);
       background-size: cover;
       border-radius: 50%;
       border: solid 3px #dbb54c; }
@@ -119,7 +119,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/background3.jpg);
+    background: url(../img/background3.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img::after {
